@@ -30,7 +30,7 @@ a:hover {
 .sidebar-menu .dropdown-menu li > a:hover, .sidebar-menu .dropdown-menu li > a:focus, .sidebar-menu li.active > a, .sidebar-menu li.active > a:hover {
   color: #44b1c1;
 }
-.content-page a:hover, 
+.content-page a:hover,
 .sidebar2 a:hover {
   color: #44b1c1;
 }
@@ -75,10 +75,10 @@ a:hover {
 }
 
 
-.langs-block-others:after { 
+.langs-block-others:after {
   border-bottom: 8px solid #44b1c1;
 }
-.header-navigation > ul > li.dropdown:hover > a:after { 
+.header-navigation > ul > li.dropdown:hover > a:after {
   border-bottom: 8px solid #44b1c1;
 }
 .header-navigation .dropdown-menu > li > a:hover,
@@ -93,7 +93,7 @@ a:hover {
   background: #fff;
   color: #44b1c1;
 }
-.header-navigation .search-box:after { 
+.header-navigation .search-box:after {
   border-bottom: 8px solid #44b1c1;
 }
 .header-navigation .search-box {
@@ -120,7 +120,7 @@ a:hover {
 .recent-work .recent-work-item:hover a.recent-work-description {
   background: #44b1c1;
 }
-.testimonials-v1 blockquote:after { 
+.testimonials-v1 blockquote:after {
   background-color: #44b1c1;
 }
 .testimonials-v1 span.testimonials-name {
@@ -129,7 +129,7 @@ a:hover {
 .search-result-item h4 a {
   color: #44b1c1;
 }
-.top-cart-content:after { 
+.top-cart-content:after {
   border-bottom: 8px solid #44b1c1;
 }
 .goods-data a,
@@ -211,7 +211,7 @@ a:hover {
   color: #fff;
   background: #44b1c1;
 }
-.blog-tags li a:hover:after { 
+.blog-tags li a:hover:after {
   border-left-color: #44b1c1;
 }
 .sidebar-categories li > a:hover,
@@ -247,9 +247,6 @@ a:hover {
 .pricing-content li i {
   color: #44b1c1;
 }
-.top-cart-block .fa-shopping-cart {
-  background: #44b1c1;
-}
 .product-item .btn:hover {
   background: #44b1c1;
 }
@@ -261,7 +258,7 @@ a:hover {
   background: #44b1c1 !important;
   border-color: #44b1c1;
 }
-.goods-page-price strong, 
+.goods-page-price strong,
 .goods-page-total strong,
 .checkout-price strong,
 .checkout-total strong {
@@ -363,7 +360,7 @@ a:hover {
 .mix-grid .mix .mix-details {
   background: #69C0CD;
 }
-.mix-grid .mix a.mix-link, 
+.mix-grid .mix a.mix-link,
 .mix-grid .mix a.mix-preview {
   background: #1adbd2;
 }
