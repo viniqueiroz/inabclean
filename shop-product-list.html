@@ -72,6 +72,8 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
   <link href="assets/corporate/css/themes/red.css" rel="stylesheet" id="style-color">
   <link href="assets/corporate/css/custom.css" rel="stylesheet">
   <!-- Theme styles END -->
+
+  <script src="assets/plugins/jquery.min.js"></script>
 </head>
 <!-- Head END -->
 
@@ -183,8 +185,8 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
                 <li><a href="#"><i class="fa fa-angle-right"></i>Sabao</a></li>
               </ul>
             </li>
-            <li class="list-group-item clearfix"><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Kids</a></li>
-            <li class="list-group-item clearfix"><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Accessories</a></li>
+            <li class="list-group-item clearfix"><a ><i class="fa fa-angle-right" ></i><a class="item-categoria" categoria-produto="crianças"> Kids</a></a></li>
+            <li class="list-group-item clearfix"><a href="shop-product-list.html"><i class="fa fa-angle-right"></i><a class="item-categoria" categoria-produto="adulto"> Accessories</a></a></li>
             <li class="list-group-item clearfix"><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Sports</a></li>
             <li class="list-group-item clearfix"><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Brands</a></li>
             <li class="list-group-item clearfix"><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Electronics</a></li>
@@ -257,11 +259,12 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
           </div>
         </div>
         <!-- BEGIN PRODUCT LIST -->
-        <ul id="produtos" class="list-unstyled">
-        <div class="row product-list">
+      <div class="row product-list">
+        <ul id="produtos" class="list-unstyled produtos">
+
             <!-- PRODUCT ITEM START -->
-            <li class="sabao">
-              <div class="col-md-4 col-sm-6 col-xs-12">
+            <li class="item-produto crianças">
+              <div class="col-md-3 col-sm-5 col-xs-12">
                 <div class="product-item">
                   <div class="pi-img-wrapper">
                     <img src="assets/pages/img/products/model1.jpg" class="img-responsive" alt="Berry Lace Dress">
@@ -271,14 +274,13 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
                     </div>
                   </div>
                   <h3><a href="shop-item.html">Berry Lace Dress Berry Lace Dress</a></h3>
-                  <div class="pi-price">$29.00</div>
-                  <a href="javascript:;" class="btn btn-default add2cart">Add to cart</a>
-                </div>
+                  </div>
               </div>
             </li>
             <!-- PRODUCT ITEM END -->
             <!-- PRODUCT ITEM START -->
-            <div class="col-md-4 col-sm-6 col-xs-12">
+            <li class="item-produto adulto">
+             <div class="col-md-3 col-sm-6 col-xs-12">
               <div class="product-item">
                 <div class="pi-img-wrapper">
                   <img src="assets/pages/img/products/model2.jpg" class="img-responsive" alt="Berry Lace Dress">
@@ -288,13 +290,13 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
                   </div>
                 </div>
                 <h3><a href="shop-item.html">Berry Lace Dress</a></h3>
-                <div class="pi-price">$29.00</div>
-                <a href="javascript:;" class="btn btn-default add2cart">Add to cart</a>
-              </div>
+                </div>
             </div>
+            </li>
             <!-- PRODUCT ITEM END -->
             <!-- PRODUCT ITEM START -->
-            <div class="col-md-4 col-sm-6 col-xs-12">
+            <li class="item-produto crianças">
+             <div class="col-md-3 col-sm-6 col-xs-12">
               <div class="product-item">
                 <div class="pi-img-wrapper">
                   <img src="assets/pages/img/products/model6.jpg" class="img-responsive" alt="Berry Lace Dress">
@@ -304,15 +306,13 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
                   </div>
                 </div>
                 <h3><a href="shop-item.html">Berry Lace Dress 2</a></h3>
-                <div class="pi-price">$29.00</div>
-                <a href="javascript:;" class="btn btn-default add2cart">Add to cart</a>
+                </div>
               </div>
-            </div>
+            </li>
             <!-- PRODUCT ITEM END -->
-          </div>
-          <div class="row product-list">
             <!-- PRODUCT ITEM START -->
-            <div class="col-md-4 col-sm-6 col-xs-12">
+            <li class="item-produto adulto">
+             <div class="col-md-3 col-sm-6 col-xs-12">
               <div class="product-item">
                 <div class="pi-img-wrapper">
                   <img src="assets/pages/img/products/model4.jpg" class="img-responsive" alt="Berry Lace Dress">
@@ -322,13 +322,13 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
                   </div>
                 </div>
                 <h3><a href="shop-item.html">Berry Lace Dress Berry Lace Dress</a></h3>
-                <div class="pi-price">$29.00</div>
-                <a href="javascript:;" class="btn btn-default add2cart">Add to cart</a>
-              </div>
+                </div>
             </div>
+            </li>
             <!-- PRODUCT ITEM END -->
             <!-- PRODUCT ITEM START -->
-            <div class="col-md-4 col-sm-6 col-xs-12">
+            <li class="item-produto adulto">
+             <div class="col-md-3 col-sm-6 col-xs-12">
               <div class="product-item">
                 <div class="pi-img-wrapper">
                   <img src="assets/pages/img/products/model5.jpg" class="img-responsive" alt="Berry Lace Dress">
@@ -338,14 +338,13 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
                   </div>
                 </div>
                 <h3><a href="shop-item.html">Berry Lace Dress</a></h3>
-                <div class="pi-price">$29.00</div>
-                <a href="javascript:;" class="btn btn-default add2cart">Add to cart</a>
-                <div class="sticker sticker-new"></div>
               </div>
             </div>
+            </li>
             <!-- PRODUCT ITEM END -->
             <!-- PRODUCT ITEM START -->
-            <div class="col-md-4 col-sm-6 col-xs-12">
+            <li class="item-produto adulto">
+             <div class="col-md-3 col-sm-6 col-xs-12">
               <div class="product-item">
                 <div class="pi-img-wrapper">
                   <img src="assets/pages/img/products/model3.jpg" class="img-responsive" alt="Berry Lace Dress">
@@ -355,15 +354,13 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
                   </div>
                 </div>
                 <h3><a href="shop-item.html">Berry Lace Dress</a></h3>
-                <div class="pi-price">$29.00</div>
-                <a href="javascript:;" class="btn btn-default add2cart">Add to cart</a>
-              </div>
+                </div>
             </div>
+            </li>
             <!-- PRODUCT ITEM END -->
-          </div>
-          <div class="row product-list">
             <!-- PRODUCT ITEM START -->
-            <div class="col-md-4 col-sm-6 col-xs-12">
+            <li class="item-produto adulto">
+             <div class="col-md-3 col-sm-6 col-xs-12">
               <div class="product-item">
                 <div class="pi-img-wrapper">
                   <img src="assets/pages/img/products/model7.jpg" class="img-responsive" alt="Berry Lace Dress">
@@ -373,13 +370,13 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
                   </div>
                 </div>
                 <h3><a href="shop-item.html">Berry Lace Dress</a></h3>
-                <div class="pi-price">$29.00</div>
-                <a href="javascript:;" class="btn btn-default add2cart">Add to cart</a>
               </div>
             </div>
+            </li>
             <!-- PRODUCT ITEM END -->
             <!-- PRODUCT ITEM START -->
-            <div class="col-md-4 col-sm-6 col-xs-12">
+            <li class="item-produto adulto">
+             <div class="col-md-3 col-sm-6 col-xs-12">
               <div class="product-item">
                 <div class="pi-img-wrapper">
                   <img src="assets/pages/img/products/model1.jpg" class="img-responsive" alt="Berry Lace Dress">
@@ -389,13 +386,13 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
                   </div>
                 </div>
                 <h3><a href="shop-item.html">Berry Lace Dress</a></h3>
-                <div class="pi-price">$29.00</div>
-                <a href="javascript:;" class="btn btn-default add2cart">Add to cart</a>
-              </div>
+                </div>
             </div>
+            </li>
             <!-- PRODUCT ITEM END -->
             <!-- PRODUCT ITEM START -->
-            <div class="col-md-4 col-sm-6 col-xs-12">
+            <li class="item-produto crianças">
+             <div class="col-md-3 col-sm-6 col-xs-12">
               <div class="product-item">
                 <div class="pi-img-wrapper">
                   <img src="assets/pages/img/products/model2.jpg" class="img-responsive" alt="Berry Lace Dress">
@@ -405,14 +402,13 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
                   </div>
                 </div>
                 <h3><a href="shop-item.html">Berry Lace Dress</a></h3>
-                <div class="pi-price">$29.00</div>
-                <a href="javascript:;" class="btn btn-default add2cart">Add to cart</a>
-                <div class="sticker sticker-sale"></div>
-              </div>
+                </div>
             </div>
+            </li>
             <!-- PRODUCT ITEM END -->
-          </div>
+
         </ul>
+      </div>
         <!-- END PRODUCT LIST -->
         <!-- BEGIN PAGINATOR -->
         <div class="row">
@@ -699,6 +695,26 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
     Layout.initFixHeaderWithPreHeader();
   });
   </script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+	$(".item-categoria").click(function(e) {
+     e.preventDefault();
+     var that = $(this);
+		var categoriaProduto = that.attr('categoria-produto');
+    console.log(categoriaProduto);
+		if (categoriaProduto !== "todos") {
+			jQuery('.item-produto').hide();
+      $('.' + categoriaProduto).show();
+			that.removeClass('is-inactive');
+			that.siblings().addClass('is-inactive');
+		} else {
+			jQuery('.item-produto').show();
+			jQuery('.item-categoria').removeClass('is-inactive');
+		}
+
+	});
+    });
+</script>
   <!-- END PAGE LEVEL JAVASCRIPTS -->
 </body>
 <!-- END BODY -->
